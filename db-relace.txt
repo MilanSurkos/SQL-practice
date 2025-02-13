@@ -1,0 +1,80 @@
+sql databaze - tabulky
+
+
+TABLE employees
+id |  firstname | lastname  | position_id  | company_id |
+_________________________________________________________________
+1   | Karel     | Houska    | 1     | 2 | 
+2   | Franta    | Rohlík    | 2     | 2 | 
+3   | Anička    | Nováková  | 3     | 1 | 
+4   | Jenda     | Benda     | 4     | NULL  |
+
+positions
+_________________________________________________________________
+id  | position  | salary
+1   | manager
+2   | accountant
+3   | secretary
+4   | driver  | 3000
+5   | zootechnik
+
+
+TABLE companies
+id  | companyname | companycity
+_________________________________________________________________
+1   | IBM         | Praha
+2   | CocaCola    | Brno
+
+
+primary key (primární klíč) - unikátní
+foreign key (cizí klíč) - referuje do cizí tabulky
+
+relace mezi employees a companies: 
+cizí klíč employees.company_id referuje na companies.id
+
+
+-------------------
+relace 1 : N
+relace M : N  - spojovaci tabulka
+
+datový typ ..... enum - výčet, check list
+[accountant, manager, driver, secretary]
+[high, medium, low]
+
+
+
+
+
+
+movies
+_________________________________________________________________
+id  |   title   |   year  | genre | director_id | oscar
+_________________________________________________________________
+1   | Obecná škola  | 1991 | commedy | 1  | true
+2   | Vratné Lahve  | 2007 | komedie | 1  | false
+
+
+actors
+_________________________________________________________________
+id  |  name | nationality | oscar
+_________________________________________________________________
+1   | Zdeněk Svěrák   | czech | true
+2   | Jan Tříska      | czech | false
+
+
+
+actors_movies
+_________________________________________________________________
+id |  actor_id  | movie_id  | oscar | honorar | role | dies | hero
+_________________________________________________________________
+1  | 1          | 1 | true
+2  | 1          | 2 | false
+3  | 2          | 1 | false
+
+
+directors
+_________________________________________________________________
+id  |   name   |  nationality
+_________________________________________________________________
+1   | Jan Svěrák | czech
+

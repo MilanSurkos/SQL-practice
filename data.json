@@ -1,0 +1,13 @@
+
+
+
+[
+  {"firstname": "Karel", "lastname":"Houska", "id": 1},
+  {"firstname": "Pepa", "lastname":"Rohlik", "id": 2}
+]
+
+
+<ul>
+  <li> Karel Houska </li>
+  <li> Pepa Rohlik </li>
+</ul>

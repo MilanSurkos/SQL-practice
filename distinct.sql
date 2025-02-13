@@ -1,0 +1,1 @@
+SELECT DISTINCT - jen unikatni zaznamy

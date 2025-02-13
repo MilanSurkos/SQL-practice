@@ -1,0 +1,13 @@
+relace 1:N
+relace M:N
+
+relace 1:1
+
+
+
+TABLE persons
+id fullname idcard_id
+
+TABLE idcards
+id dateissue officeissue person_id
+

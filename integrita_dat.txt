@@ -1,0 +1,8 @@
+orphan records
+
+onUpdate - pridani zaznamu, editace existujiciho
+onDelete - vymazani zaznamu
+
+RESTRICT, NO ACTION - operace, ktera by ohrozila integritu se neprovede a skonci chybou
+CASCADE - sirotci zaznamy se kaskadovite smazou
+SET NULL - sirotci cizi klice se nahradi hodnotou NULL

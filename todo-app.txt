@@ -1,0 +1,36 @@
+projekty / obsahuji ukoly
+ukoly - nazev, datum, splneno, priority / projekt ... ukol musi patrit do projektu
+lidi - first, last
+ukoly muzou byt prirazene lidem
+  - na jednom ukolu muze pracovat vic lidi
+
+_____________________________________________________________________
+
+TABLE projects
+_________________________________________________________________
+id  | project | description
+__________________________________________________________________
+1   | zahrada | prace na zahrade doma
+2   | development    | moje JS projekty
+
+
+TABLE persons
+_________________________________________________________________
+id  | first | last
+__________________________________________________________________
+1   | Jan   | Novak
+2   | Petr  | Kocourek
+
+
+TABLE tasks
+_______________________________________________________________________
+id  | task    | date    | completed | priority | project_id
+_______________________________________________________________________
+1   | posekat travu | 2022-01-01 | false | high | 1
+
+TABLE persons_tasks
+_________________________________________________________________
+id  | person_id | task_id
+__________________________________________________________________
+1   | 1        | 1
+2   | 2        | 1

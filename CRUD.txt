@@ -1,0 +1,7 @@
+CRUD
+____________
+Create - novy zaznam
+Read  - nacist zaznam(y)
+Update - editace zaznamu
+Delete - vymazani
+

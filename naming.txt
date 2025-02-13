@@ -1,0 +1,16 @@
+lowercase
+
+TABLE NAMES - plural
+companies, persons, tasks, projects, cars, ....
+
+primary key - id
+foreign key - tablename singular_id
+
+companies
+id
+
+company_id
+
+camelCase
+kebab-case
+snake_case

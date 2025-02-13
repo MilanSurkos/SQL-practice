@@ -1,0 +1,13 @@
+Boolean - neni
+TINYINT
+  0 - false
+  1 - true
+
+ENUM ("T", "F")
+
+
+TINYINT
+SMALLINT
+MEDIUMINT
+INT
+BIGINT

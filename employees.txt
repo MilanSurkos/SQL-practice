@@ -1,0 +1,11 @@
+id  | firstname | lastname  | position_id | company_id
+___________________________________________________
+
+position ENUM("manager", "secretary", "driver", "accountant")
+
+
+positions
+id  | position|
+___________________________________________________
+1 | manager
+2 | secretary|
